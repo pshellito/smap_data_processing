@@ -23,9 +23,9 @@ batchDays = 4
 # Lon/Lat pairs to write out
 domainFile = 'nldasDomainSection.txt'
 # Directory where raw SMAP data are held
-smapDir = '../data/smapData'
+smapDir = '../../data/smapData'
 # Directory where processed SMAP time series will be written
-smapOutDir = '../data/smapTs'
+smapOutDir = '../../data/smapTs'
 
 # Total number of days to read
 totDays = (dateEnd-dateStart).days
